@@ -219,6 +219,7 @@
                         </tr>
                     </tbody>
                     <tfoot>
+                    </table>
                         <tr>
                             <td colspan="2">Total</td>
                             <td>98.5%</td>
