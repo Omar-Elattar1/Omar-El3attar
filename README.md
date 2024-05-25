@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
     <head>
        <!--title is the name of the website-->
@@ -59,7 +58,7 @@
             Studies</u>
             </div>
             <div>in</div> <span style="color:rgb(0, 0, 0);">
-            <b>M.S.L.S</b>
+            <b>M.S.L.S
             </span>
             </b>
             <br> 
