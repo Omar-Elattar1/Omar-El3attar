@@ -1,6 +1,5 @@
 <html>
     <head>
-       <!--title is the name of the website-->
         <title>
             Omar Elattar
         </title>
@@ -28,8 +27,6 @@
            src = source
            alt = alternative    
             -->
-            <div>
-            <img src="./photo.jpg" width="150px" Height="150px"alt="photo 1"> </div>
             <!-- 
                 AUDIO & VIDEO
                 <audio src="./     .mp3" type=audio/mpeg controls> </audio>
@@ -59,7 +56,6 @@
             </div>
             <div>in</div> <span style="color:rgb(0, 0, 0);">
             <b>M.S.L.S
-            </span>
             </b>
             <br> 
             <u><div>works</div></u>
@@ -78,8 +74,6 @@
             <u>
                 <div>writing Podcasts</div>
             </u>
-            </p>
-        </header>
              <hr>
              <main>
                 <section id="contact us">
@@ -163,9 +157,7 @@
                         <a href="https://www.tiktok.com/@o_el3attar?is_from_webapp=1&sender_device=pc">Tiktok</a>
                         <br>
                         <a href="mailto:omarelattar308@gmail.com">Gmail</a>
-                       </body>
                        </div>
-                    </section>
                     <hr>
                     <body>
                         <section id="About me">
@@ -241,6 +233,4 @@
                     <p>
                         all rights are preserved &copy;
                     </p>
-                </body>
             </footer>
-        </html>
