@@ -21,14 +21,13 @@
                     <section>
          -->
         <header>
-                <h1>Omar Elattar</h1>
                    <!-- 
                images
            src = source
            alt = alternative    
             -->
                         <div>
-            <img src="./photo.jpg" width="150px" Height="150px"alt="photo" > </div>
+            <img src="./omarphoto.jpg" width="150px" Height="150px"alt="photo" > </div>
             <!-- 
                 AUDIO & VIDEO
                 <audio src="./     .mp3" type=audio/mpeg controls> </audio>
