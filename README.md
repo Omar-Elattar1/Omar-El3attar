@@ -27,6 +27,8 @@
            src = source
            alt = alternative    
             -->
+                        <div>
+            <img src="./photo.jpg" width="150px" Height="150px"alt="photo 1"> </div>
             <!-- 
                 AUDIO & VIDEO
                 <audio src="./     .mp3" type=audio/mpeg controls> </audio>
