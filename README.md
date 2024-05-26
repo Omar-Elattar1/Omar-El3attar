@@ -21,14 +21,14 @@
                     <section>
          -->
         <header>
-                <h1>Heba Badr</h1>
+                <h1Omar Elattar</h1>
                    <!-- 
                images
            src = source
            alt = alternative    
             -->
                         <div>
-            <img src="./photo.jpg" width="150px" Height="150px"alt="photo"> </div>
+            <img src="./photo.jpg" width="150px" Height="150px"alt="photo.jpg"> </div>
             <!-- 
                 AUDIO & VIDEO
                 <audio src="./     .mp3" type=audio/mpeg controls> </audio>
