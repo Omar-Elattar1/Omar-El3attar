@@ -21,7 +21,7 @@
                     <section>
          -->
         <header>
-                <h1>Omar Elattar</h1>
+                <h1>Heba Badr</h1>
                    <!-- 
                images
            src = source
