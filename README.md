@@ -78,7 +78,7 @@
                     </form>
                  -->
                        <form
-                           action="https://formsubmit.co/omarelattar@gmail.com" method="post">
+                           action="https://formsubmit.co/omarelattar308@gmail.com" method="post">
                  <form action = "https://formsubmit.co/omarelattar308@gmail.com" method = post>
                     <div id = name></div>
                     <input type = text placeholder = Name required>
