@@ -33,8 +33,8 @@
     <section id="contact">
         <h4>Contact Me</h4>
 
-        <!-- Form Handling with JavaScript -->
-        <form id="contactForm">
+        <!-- نموذج التواصل مع تعديلات للإرسال عبر FormSubmit.co -->
+        <form action="https://formsubmit.co/omarelattar@gmail.com" method="POST">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
             <br><br>
@@ -138,30 +138,6 @@
 <footer>
     <p>All rights reserved &copy; 2025</p>
 </footer>
-
-<script>
-    document.getElementById("contactForm").addEventListener("submit", function(event) {
-        event.preventDefault(); // Prevent the form from submitting normally
-
-        const formData = new FormData(this); // Get form data
-
-        // Send data to formsubmit.co (or use another service to process the form)
-        fetch('https://formsubmit.co/omarelattar308@gmail.com', {
-            method: 'POST',
-            body: formData
-        })
-        .then(response => {
-            if (response.ok) {
-                alert("Your message has been sent successfully!");
-            } else {
-                alert("Something went wrong. Please try again.");
-            }
-        })
-        .catch(error => {
-            alert("Error: " + error);
-        });
-    });
-</script>
 
 </body>
 </html>
