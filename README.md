@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>صفحة Omar</title>
+    <title>Omar's Page</title>
     <link rel="stylesheet" href="omar.css">
 </head>
 <body>
@@ -14,16 +14,16 @@
     </div>
 
     <p>
-        <div><u>Iam</u></div>
+        <div><u>I am</u></div>
         <b><span style="color:brown;"><div>Omar Yasser Elattar</div></span></b>
         <br>
         <div><u>Studies</u></div>
         <div>in <b>M.S.L.S</b></div>
-        <br> 
+        <br>
         <div><u>Works</u></div>
         <div>in Video Montage</div>
         <div>and <span style="color:blue"><b>Photoshop</b></span></div>
-        <br> 
+        <br>
         <u><div>Writing Podcasts</div></u>
     </p>
     <hr>
@@ -33,33 +33,8 @@
     <section id="contact">
         <h4>Contact Me</h4>
 
-        <?php
-        if ($_SERVER["REQUEST_METHOD"] == "POST") {
-            $name = htmlspecialchars($_POST["name"]);
-            $email = htmlspecialchars($_POST["email"]);
-            $password = htmlspecialchars($_POST["password"]);
-            $message = htmlspecialchars($_POST["message"]);
-            $gender = htmlspecialchars($_POST["gender"]);
-            $country = htmlspecialchars($_POST["country"]);
-            $helpOptions = isset($_POST["help"]) ? implode(", ", $_POST["help"]) : "None";
-
-            // عرض البيانات بعد الإرسال
-            echo "<h2>تم استقبال البيانات بنجاح!</h2>";
-            echo "<p><b>الاسم:</b> $name</p>";
-            echo "<p><b>البريد الإلكتروني:</b> $email</p>";
-            echo "<p><b>الرسالة:</b> $message</p>";
-            echo "<p><b>الجنس:</b> $gender</p>";
-            echo "<p><b>الدولة:</b> $country</p>";
-            echo "<p><b>المساعدة في:</b> $helpOptions</p>";
-
-            // حفظ البيانات في ملف نصي
-            $data = "Name: $name\nEmail: $email\nGender: $gender\nCountry: $country\nMessage: $message\nHelp With: $helpOptions\n--------------------\n";
-            file_put_contents("submissions.txt", $data, FILE_APPEND);
-        }
-        ?>
-
-        <!-- نموذج التواصل -->
-        <form action="" method="POST">
+        <!-- Form Handling with JavaScript -->
+        <form id="contactForm">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
             <br><br>
@@ -163,6 +138,30 @@
 <footer>
     <p>All rights reserved &copy; 2025</p>
 </footer>
+
+<script>
+    document.getElementById("contactForm").addEventListener("submit", function(event) {
+        event.preventDefault(); // Prevent the form from submitting normally
+
+        const formData = new FormData(this); // Get form data
+
+        // Send data to formsubmit.co (or use another service to process the form)
+        fetch('https://formsubmit.co/omarelattar308@gmail.com', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => {
+            if (response.ok) {
+                alert("Your message has been sent successfully!");
+            } else {
+                alert("Something went wrong. Please try again.");
+            }
+        })
+        .catch(error => {
+            alert("Error: " + error);
+        });
+    });
+</script>
 
 </body>
 </html>
