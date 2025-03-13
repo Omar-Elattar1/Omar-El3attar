@@ -41,28 +41,42 @@
         <br>
         <div>
         <u>
-        Studies</u>
-        </div>
-        <div>in</div> <span style="color:rgb(0, 0, 0);">
-        <b>M.S.L.S
-        </b>
-        <br> 
-        <u><div>works</div></u>
-        <div>in</div> <span style="color:rgb(0, 0, 0);">
-        <div>video montage</div>
-        </span>
-         <div>
-            and 
-         </div>
-        <span style="color:blue">
-        <b>
-         <div>photoshop</div>
-        </b>
-        </span> 
-        <br> 
-        <u>
-            <div>writing Podcasts</div>
+            Coursera:
+
+"Clinical Psychology" – Duke University
+
+"Depression and Mood Disorders" – Wesleyan University
+
+"Cognitive Neuroscience" – Duke University
+
+
+EdX:
+
+"The Neurobiology of Depression" – Harvard University
+
+"Fundamentals of Clinical Psychopharmacology" – Cambridge University
+
+
+FutureLearn:
+
+"Understanding Anxiety, Depression, and CBT" – University of Reading
+
+"Psychological Research Methods" – Open University
+
+
+Udemy:
+
+"Advanced Cognitive Behavioral Therapy (CBT)"
+
+"Clinical Psychology & Psychotherapy"
         </u>
+        </div>
+        <div></div> <span style="color⚫(0);">
+        <b>
+        </b>
+        <br> 
+        <u><div>phychiatrist</div></u>
+         <span style="color⚫(0, 0, 0);">
          <hr>
          <main>
             <section id="contact us">
