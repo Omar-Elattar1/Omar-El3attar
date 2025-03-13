@@ -1,6 +1,8 @@
-</style>
-    <link rel="stylesheet" href="omar.css">
-</head>
+<html> 
+    <style>
+    <link rel="stylesheet" href="omar.css"
+        >
+    </style>
 <body>
     <!-- 
         semantic elements
@@ -14,8 +16,6 @@
        src = source
        alt = alternative    
         -->
-                    <div>
-        <img src="./photo.jpg" width="150px" Height="150px"alt="photo"> </div>
         <!-- 
             AUDIO & VIDEO
             <audio src="./     .mp3" type=audio/mpeg controls> </audio>
@@ -245,3 +245,4 @@
                     all rights are preserved &copy;
                 </p>
         </footer>
+ </html>
