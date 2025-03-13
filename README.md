@@ -32,43 +32,46 @@
         <u>Iam</u> 
         </div>
         <b>
-        <span style="color:brown;">
+        <span style="color⚫;">
         <div>
-        Omar Yasser Elattar
+        <b>Omar Yasser Elattar</b>
         </div>
         </span>
         </b>
         <br>
         <div>
         <u>
-            Coursera:
+            <b>Coursera:</b>
 
-"Clinical Psychology" – Duke University
+"Clinical Psychology" – Duke University<br>
 
-"Depression and Mood Disorders" – Wesleyan University
+"Depression and Mood Disorders" – Wesleyan University<br>
 
 "Cognitive Neuroscience" – Duke University
 
+<br><hr><br>
+<b>EdX:</b> <br>
 
-EdX:
-
-"The Neurobiology of Depression" – Harvard University
+"The Neurobiology of Depression" – Harvard University<br>
 
 "Fundamentals of Clinical Psychopharmacology" – Cambridge University
+<br>
+<hr>
+<br>
 
+<b>FutureLearn:</b>
 
-FutureLearn:
+"Understanding Anxiety, Depression, and CBT" – University of Reading <br>
 
-"Understanding Anxiety, Depression, and CBT" – University of Reading
+"Psychological Research Methods" – Open University <br>
+<br>
+<hr>
+<br>
+<b>Udemy</b>
 
-"Psychological Research Methods" – Open University
+"Advanced Cognitive Behavioral Therapy (CBT)"<br>
 
-
-Udemy:
-
-"Advanced Cognitive Behavioral Therapy (CBT)"
-
-"Clinical Psychology & Psychotherapy"
+"Clinical Psychology & Psychotherapy"<br>
         </u>
         </div>
         <div></div> <span style="color⚫(0);">
@@ -104,7 +107,7 @@ Udemy:
                     <input type = password placeholder = Password required>
                    <br><br>
                    <div id = message></div>
-                    <textarea name ="Message" Cols ="30" rows = "10" placeholder="Message" ></textarea>
+                    <textarea name ="تعريف بسيط بالحاله" Cols ="30" rows = "10" placeholder="Message" ></textarea>
                     <br>  
                     <body>
                      <p>
@@ -139,16 +142,18 @@ Udemy:
                     </p>
                     </body>
                     <input type = checkbox name = work >
-                    <label>Podcast</label>
+                    <label>Diagnosis session (choice for first 3-5 sessions)</label>
                     <br><br>
                     <input type =checkbox name = work >
-                    <label>Photo Graphic Designing </label>
+                    <label>Text Therapy Session</label>
                     <br><br>
                     <input type =checkbox name = work >
-                    <label>Video montage</label>
+                    <label>Voice Therapy session</label>
                     <br><br>
                     <input type =checkbox name = work >
-                    <label>Sponser</label>
+                    <label>Video Therapy session</label>
+                    <br><br>
+                    <textarea name ="طريقة التواصل" Cols ="30" rows = "10" placeholder="Message" ></textarea>
                     <br><br>
                     <input type = submit >
              </form>
