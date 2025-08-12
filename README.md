@@ -34,7 +34,7 @@
         <b>
         <span style="color⚫;">
         <div>
-        <b>Omar Yasser Elattar</b>
+        <b>Omar Yasser Elattar <br>Founder of "Zertx" clothes brand<br>Certified Therapist<br></b>
         </div>
         </span>
         </b>
